@@ -54,3 +54,13 @@
 - on copie l'adresse mac puis le model du téléphone (0C:B3:19:B9:4F:C6GT-S7390G)
 - On decode ce code sur https://www.sha1.fr/
 - La réponse sera le code du challenge
+
+## DNS -transfert zone
+
+`Pour résoudre ce challenge(DNS -transfert de zone), on utilse le terminal`
+
+- On utilse la commande dig -h pour connaitre les ligne de commande que l'on veut utilisée
+- Il suffie donc de suivre l'usage mentionné
+- Pour savoir le ou bien connaitre la solution de ce challenge, on doit utilisé une commande comme celle de du dessus.
+
+  `dig @challenge01.root-me.org -p 54011 ch11.challenge01.root-me.org txt `
